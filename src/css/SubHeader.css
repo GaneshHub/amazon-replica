@@ -1,0 +1,36 @@
+.subHeader{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    z-index: 100;
+    background-color: #4e4bf0;
+}
+.subHeader_option{
+    color: white;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+.subHeader_nav{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .subHeader_location{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100%;
+    margin-top: 5px;
+    margin-right: -10px;
+    margin-left: 10px;
+}
+.subHeader_optionLineOne{
+    font-size: 13px;
+}
+.subHeader_optionLineTwo{
+    font-size: 15px;
+    font-weight: 800;
+    margin-top: -3px;
+}
