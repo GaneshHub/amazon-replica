@@ -20,6 +20,11 @@
     object-fit: contain;
     width: 180px;
     height: 180px;
+    border-radius: 10px;
+    transition: transform 100ms ease-out;
+  }
+  .checkoutProduct_image:hover {
+    transform: scale(1.07);
   }
 
 .checkoutProduct_rating {
